@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js"></script>
-</head>
 
 <body>
   <h2>Overview:</h2>
