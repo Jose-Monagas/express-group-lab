@@ -4,11 +4,11 @@
   <p>We created an instance of the app object, set up middleware, and set the view engine to jsx. Also, set the app to
     send
     mongoose to connect to our mongodb database and set up our server to listen on port 3000. We set up different
-    controller functions such as getUser, createUser, deleteUser, updateUser and logUser. But for a user to be be able to
+    controller functions such as getUser, createUser, deleteUser, updateUser and logUser. But for a user to be able to
     update or delete they must be authenticated and isloggedIn property being true.</p>
 
   <h2>Implementation:</h2>
-  <p>Used mvc to structure our files.In the model directory we have a user model where we use mongoose to create a user
+  <p>Used mvc to structure our files. In the model directory we have a user model where we use mongoose to create a user
     schema and add validation of how our documents should be structured in mongodb. We have a routes folder in which the
     userroutes are (HTTP verbs). Each route has its own user controller functionality. routes: update, delete, and logout
     need Auth. functionality which verifies the credentials of the user against the info that exhists in the database.
